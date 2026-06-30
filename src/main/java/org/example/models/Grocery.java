@@ -30,7 +30,7 @@ public class Grocery {
             int choice = -1;
             if (scanner.hasNextInt()) {
                 choice = scanner.nextInt();
-                scanner.nextLine(); // Satır sonu karakterini temizle
+                scanner.nextLine();
             } else {
                 System.out.println("Lütfen geçerli bir sayı giriniz!");
                 scanner.nextLine();
@@ -95,7 +95,7 @@ public class Grocery {
                 }
             }
         }
-        Collections.sort(groceryList); // Her operasyon sonrası sıralama
+        Collections.sort(groceryList);
     }
 
 
